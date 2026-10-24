@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "date > /tmp/CS_POC_E2E_9X7; id >> /tmp/CS_POC_E2E_9X7; hostname >> /tmp/CS_POC_E2E_9X7"
+          }
+        ]
+      }
+    ]
+  }
+}
